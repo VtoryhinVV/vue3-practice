@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <Container>
-      <Logo />
+      <Logo @click="$router.push('/')" />
     </Container>
   </header>
 </template>
